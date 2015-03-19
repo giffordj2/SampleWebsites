@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Pasha the Painter</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/painter.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+	   <!-- Logo area -->
+		<header>
+			<a href="index.html"><img src="img/painterlogo.gif" alt="Pasha the Painter logo"/></a>
+		</header>
+				<!-- Navigation area -->
+		<nav>
+			<ul>
+				<li><a href = "index.html" class ="selected">Home</a></li> 
+				<li><a href = "services.html">Services</a></li> 
+				<li><a href = "testimonals.html">Testimonials</a></li> 
+				<li><a href = "estimates.html">Estimates</a></li>
+			</ul>
+		</nav>
+		<!-- Content area -->
+		<section>
+			<div id = "canvas">
+			</div>
+			<div id = "pallete">
+				<div id = "shade"></div>
+				<div id= "colorSelect">
+					<p>
+						<label for="red">Red</label>
+						<input id="red" name="red" type="range" min=0 max=255 value=0>
+					</p>
+					<p>
+						<label for="green">Green</label>
+						<input id="green" name="green" type="range" min=0 max=255 value=0>
+					</p>
+					<p>
+						<label for="blue">Blue</label>
+						<input id="blue" name="blue" type="range" min=0 max=255 value=0>
+					</p>	
+				</div>
+				<div id = "tint"></div>
+			</div>
+		</section>	
+		<!-- Footer -->
+		<footer>
+			Copyright © 2011 Pasha the Painter <br/>
+			<a href = "mailto:joel@gifford.com">joel@gifford.com</a>
+		</footer>
+	   <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	   <script src="js/app.js"></script>
+	</body>
+</html>

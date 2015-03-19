@@ -1,0 +1,58 @@
+@media screen and (min-width: 480px){
+	
+	section img{
+		margin: 0 15%;
+		}
+
+	nav{
+ 	 font-size: 0.8rem;
+	}
+		
+	#canvas{
+		float: left;
+		width: 50%;
+		margin: 10px 10%;
+		}
+	
+	#pallete{
+		float: right;
+		width: 25%;
+		margin: 10px 0;
+		}
+		
+	
+	}
+
+@media screen and (min-width: 660px){
+     /******************
+       TWO COLUMN LAYOUT
+    *******************/
+    
+  nav{
+  	float: left;
+    font-size: 1.125em;
+    margin: 0 2.5%;
+    text-align: left;
+    width: 10%;
+  }
+  
+  nav li{
+    display: block;
+}
+	
+  nav a{
+  	padding-top: 0;
+  	}
+
+section{
+	width: 60%;
+	margin: 0 5%;
+	float: left;
+	}
+	
+footer{
+	clear: both;
+	}
+
+
+}
